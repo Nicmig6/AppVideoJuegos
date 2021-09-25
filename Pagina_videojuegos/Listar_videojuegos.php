@@ -18,7 +18,9 @@
     </a>
     <nav class="navegacion">
         <a href="agregar_videojuego.php"  class="navegacion_enlace">Agregar VideoJuego</a>
+        <a href="modificar_videojuego.php"  class="navegacion_enlace">Modificar VideoJuego</a>
         <a href="index.php"class="navegacion_enlace">Página principal</a>
+        <a href="eliminar_videojuego.php"class="navegacion_enlace">Eliminar VideoJuego</a>
     </nav>
 
     <h3>Listado de Videojuegos:</h3>  

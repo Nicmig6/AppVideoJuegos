@@ -18,7 +18,9 @@
     </a>
         <nav class="navegacion">
         <a href="agregar_videojuego.php"  class="navegacion_enlace">Agregar VideoJuego</a>
+        <a href="modificar_videojuego.php"  class="navegacion_enlace">Modificar VideoJuego</a>
         <a href="Listar_videojuegos.php"class="navegacion_enlace">Listar VideoJuegos</a>
+        <a href="eliminar_videojuego.php"class="navegacion_enlace">Eliminar VideoJuego</a>
     </nav>
 
     <img src="/nico.jpg" alt="Imagen nico">

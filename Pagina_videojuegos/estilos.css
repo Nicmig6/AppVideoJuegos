@@ -77,9 +77,10 @@ img{
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
 }
-.nombre_campo{
-    color: var(--negro);
-    font-size: 3rem;
+.videojuego,.nombre_campo{
+    color: var(--amarillo);
+    background-color: var(--rojo);
+    font-size: 2rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
@@ -98,4 +99,8 @@ p{
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
 }
