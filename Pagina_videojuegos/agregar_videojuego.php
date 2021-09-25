@@ -34,7 +34,7 @@
             <option value="si">si</option>
             <option value="no">no</option>
         </select>
-        <input type="submit" class="boton_campo" value="Enviar">
+        <input type="submit" class="boton_campo" value="Guardar">
     </form>
 
     <?php
@@ -53,7 +53,7 @@ if($_POST){
 ?>
     
     <footer class="footer">
-        <p>Todos los derechos reservados. Nicolas Migliano</p>
+    <p>Todos los Derechos Reservados. Nicolas Migliano</p>
     </footer>
     <script src="/validarAgregar_videojuego.js"></script>
 </body>

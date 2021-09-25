@@ -27,9 +27,9 @@
 <?php
 $datos=[];
     try {
-        $db=mysqli_connect("localhost","root","","appvideojuegos");
-        $sql="SELECT * FROM videojuegos;";
-        $consulta=mysqli_query($db,$sql);
+         $db=mysqli_connect("localhost","root","","appvideojuegos");
+          $sql="SELECT * FROM videojuegos;";
+         $consulta=mysqli_query($db,$sql);
         
         $i=0;
     
@@ -52,7 +52,7 @@ $datos=[];
     }
 ?>
     <footer class="footer">
-        <p>Todos los derechos reservados. Nicolas Migliano</p>
+    <p>Todos los Derechos Reservados. Nicolas Migliano</p>
     </footer>
 </body>
 </html>

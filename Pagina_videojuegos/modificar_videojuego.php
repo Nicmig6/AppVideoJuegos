@@ -72,7 +72,7 @@ if($_POST){
         <script src="/validarModificar_videojuego.js"></script>
 
     <footer class="footer">
-        <p>Todos los derechos reservados. Nicolas Migliano</p>
+    <p>Todos los Derechos Reservados. Nicolas Migliano</p>
     </footer>
     <script src="/script.js"></script>
 </body>

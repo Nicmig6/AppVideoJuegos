@@ -78,8 +78,8 @@ img{
     padding: 1rem;
 }
 .videojuego,.nombre_campo{
-    color: var(--amarillo);
-    background-color: var(--rojo);
+    color: var(--rojo);
+    background-color: var(--blanco);
     font-size: 2rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
