@@ -24,10 +24,12 @@
     </nav>
 
     <h3>Listado de Videojuegos:</h3>  
+
+    <a href="reporte_pdf.php"class="boton_campo">Exportar PDF</a>
 <?php
 $datos=[];
     try {
-         $db=mysqli_connect("localhost","root","","appvideojuegos");
+         $db=mysqli_connect("localhost","root","mmnicomm88","appvideojuegos");
           $sql="SELECT * FROM videojuegos;";
          $consulta=mysqli_query($db,$sql);
         

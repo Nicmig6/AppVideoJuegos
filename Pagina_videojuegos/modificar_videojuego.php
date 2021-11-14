@@ -30,7 +30,7 @@
         <option value="">Seleccione VideoJuego:</option>
         <?php
         try {
-            $db=mysqli_connect("localhost","root","","appvideojuegos");
+            $db=mysqli_connect("localhost","root","mmnicomm88","appvideojuegos");
             $sql="SELECT * FROM videojuegos;";
             $consulta=mysqli_query($db,$sql);
             while ($valores = mysqli_fetch_array($consulta)) {
@@ -59,7 +59,7 @@ if($_POST){
     $videojuego=$_POST["videojuego"];
     $completado=$_POST["completado"];
     try {
-        $db=mysqli_connect("localhost","root","","appvideojuegos");
+        $db=mysqli_connect("localhost","root","mmnicomm88","appvideojuegos");
         $sql="UPDATE videojuegos SET completado='$completado' WHERE titulo='$videojuego';";
         $consulta=mysqli_query($db,$sql);
 

@@ -51,6 +51,9 @@ body{
 .navegacion_enlace:hover{
     color:var(--negro);
  }
+ .navegacion{
+     display: block;
+ }
  }
 h1,h2,h3{
     font-family: var(--fuente);
@@ -58,8 +61,12 @@ h1,h2,h3{
     font-size: 4rem;
     text-align: center;
 }
+.navegacion{
+    display: flex;
+}
 .footer{
     text-align: center;
+    background-color: var(--blanco);
     color: var(--rojo);
     font-size: 2rem;
 }

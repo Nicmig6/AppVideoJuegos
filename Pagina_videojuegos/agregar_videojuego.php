@@ -26,7 +26,7 @@
     <h3>VideoJuego Nuevo:</h3>  
 
     <form class="formulario" method="post" onsubmit="return validarAgregar_videojuego(this);">
-        <label  class="nombre_campo">Nombre del Juego:</label>
+        <label class="nombre_campo">Nombre del Juego:</label>
         <input type="text"name="nombre_videojuego"  class="formulario_campo">
        
         <select class="nombre_campo" name="completado" id="completado">
@@ -43,7 +43,7 @@ if($_POST){
     $completado=$_POST["completado"];
 
     try {
-        $db=mysqli_connect("localhost","root","","appvideojuegos");
+        $db=mysqli_connect("localhost","root","mmnicomm88","appvideojuegos");
         $sql="INSERT INTO videojuegos(titulo,completado) VALUES ('$videojuego','$completado');";
         $consulta=mysqli_query($db,$sql);
     } catch (\Throwable $th) {
